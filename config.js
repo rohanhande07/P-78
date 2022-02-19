@@ -1,16 +1,16 @@
-import firebase from 'firebase'
-require ('@firebase/firestore')
+import firebase from 'firebase';
+require('@firebase/firestore')
 
-var firebaseConfig = {
-    apiKey: "AIzaSyBolMLi9_NIpmk7j7uUKW47FjdstKChmTs",
-    authDomain: "barter-f12d2.firebaseapp.com",
-    projectId: "barter-f12d2",
-    storageBucket: "barter-f12d2.appspot.com",
-    messagingSenderId: "373484215370",
-    appId: "1:373484215370:web:b26247245f3b37ee92dab3",
-    measurementId: "G-7WW1B0Q5PW"
-  };
+const firebaseConfig = {
+  apiKey: "AIzaSyBTkqhAlJI-PETtKPRLS-C2HqrHsLypFVU",
+  authDomain: "story-hub-7784e.firebaseapp.com",
+  databaseURL: "https://story-hub-7784e-default-rtdb.firebaseio.com",
+  projectId: "story-hub-7784e",
+  storageBucket: "story-hub-7784e.appspot.com",
+  messagingSenderId: "590900675123",
+  appId: "1:590900675123:web:48cbb9f3ccfcc74d1f1946"
+};
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-  
+
   export default firebase.firestore()
