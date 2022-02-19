@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "TabNavigation",
-    "slug": "tab-navigation",
+    "name": "barter-app-stage-2",
+    "slug": "barter-app-stage-2",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [

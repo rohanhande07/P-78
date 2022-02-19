@@ -1,16 +1,18 @@
 import firebase from 'firebase';
 require('@firebase/firestore')
 
-const firebaseConfig = {
-  apiKey: "AIzaSyBTkqhAlJI-PETtKPRLS-C2HqrHsLypFVU",
-  authDomain: "story-hub-7784e.firebaseapp.com",
-  databaseURL: "https://story-hub-7784e-default-rtdb.firebaseio.com",
-  projectId: "story-hub-7784e",
-  storageBucket: "story-hub-7784e.appspot.com",
-  messagingSenderId: "590900675123",
-  appId: "1:590900675123:web:48cbb9f3ccfcc74d1f1946"
-};
+var firebaseConfig = {
+    apiKey: "AIzaSyBVdqWajEpMrgN8DcdqhbdUK6AkbGP-g8E",
+    authDomain: "bartar-system.firebaseapp.com",
+    databaseURL: "https://bartar-system.firebaseio.com",
+    projectId: "bartar-system",
+    storageBucket: "bartar-system.appspot.com",
+    messagingSenderId: "573044276501",
+    appId: "1:573044276501:web:f6f2ef6db00ef2683efd1c",
+    measurementId: "G-YWPCLZGHR3"
+  };
   // Initialize Firebase
+
   firebase.initializeApp(firebaseConfig);
 
-  export default firebase.firestore()
+  export default firebase.firestore();
